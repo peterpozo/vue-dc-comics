@@ -20,4 +20,37 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: white;
+  padding: 20px 10%;
+  box-shadow: 0 4px 2px -2px gray;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.logo {
+  cursor: pointer;
+  width: 120px;
+}
+.links {
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding: 0 3px;
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+</style>
