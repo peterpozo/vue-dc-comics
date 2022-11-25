@@ -19,4 +19,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+</style>

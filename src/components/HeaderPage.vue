@@ -36,14 +36,14 @@ header {
 }
 .logo {
   cursor: pointer;
-  width: 120px;
+  width: 100px;
 }
 .links {
   list-style: none;
 }
 .links li {
   display: inline-block;
-  padding: 0 3px;
+  padding: 0 10px;
 }
 
 .links a {
