@@ -1,16 +1,26 @@
 <template>
   <main>
     <div class="container">
-      <CardComics v-for="i in 12" :key="i" />
+      <CardComics
+        v-for="objComics in Comics"
+        :key="objComics.series"
+        :comics="objComics"
+      />
     </div>
   </main>
 </template>
 
 <script>
 import CardComics from "@/components/CardComics.vue";
+import Comics from "@/components/dc-comics.json";
 export default {
   components: {
     CardComics,
+  },
+  data() {
+    return {
+      Comics,
+    };
   },
 };
 </script>
