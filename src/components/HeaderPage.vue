@@ -1,27 +1,37 @@
 <template>
   <header>
-    <img class="logo" src="../img/dc-logo.png" alt="logo" />
-    <nav class="links">
-      <li><a href="#!">CHARACTERS</a></li>
-      <li><a href="#!">COMICS</a></li>
-      <li><a href="#!">MOVIES</a></li>
-      <li><a href="#!">TV</a></li>
-      <li><a href="#!">GAMES</a></li>
-      <li><a href="#!">COLLECTIBLES</a></li>
-      <li><a href="#!">VIDEOS</a></li>
-      <li><a href="#!">FANS</a></li>
-      <li><a href="#!">NEWS</a></li>
-      <li><a href="#!">SHOP</a></li>
-    </nav>
+    <section class="header-top">
+      <img class="logo" src="../img/dc-logo.png" alt="logo" />
+      <nav class="links">
+        <li><a href="#!">CHARACTERS</a></li>
+        <li><a href="#!">COMICS</a></li>
+        <li><a href="#!">MOVIES</a></li>
+        <li><a href="#!">TV</a></li>
+        <li><a href="#!">GAMES</a></li>
+        <li><a href="#!">COLLECTIBLES</a></li>
+        <li><a href="#!">VIDEOS</a></li>
+        <li><a href="#!">FANS</a></li>
+        <li><a href="#!">NEWS</a></li>
+        <li><a href="#!">SHOP</a></li>
+      </nav>
+    </section>
+
+    <HeaderJumbotron />
   </header>
 </template>
 
 <script>
-export default {};
+import HeaderJumbotron from "@/components/HeaderJumbotron.vue";
+export default {
+  name: "HeaderPage",
+  components: {
+    HeaderJumbotron,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-header {
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
