@@ -1,37 +1,6 @@
 <template>
   <main>
     <div class="content"></div>
-    <div class="blue-icons">
-      <ul class="icons">
-        <li>
-          <a href="#!"
-            ><img src="../img/buy-comics-digital-comics.png" alt="" />
-            <span>DIGITAL COMICS</span></a
-          >
-        </li>
-        <li>
-          <a href="#!"
-            ><img src="../img/buy-comics-merchandise.png" alt="" />
-            <span>DIGITAL COMICS</span></a
-          >
-        </li>
-        <li>
-          <a href="#!"
-            ><img src="../img/buy-comics-shop-locator.png" alt="" />
-            <span>DIGITAL COMICS</span></a
-          >
-        </li>
-        <li>
-          <a href="#!"
-            ><img src="../img/buy-comics-subscriptions.png" alt="" />
-            <span>DIGITAL COMICS</span></a
-          >
-        </li>
-        <!-- <li>
-          <a href="#!"><img src="../img/buy-dc-power-visa.svg" alt="" /></a>
-        </li> -->
-      </ul>
-    </div>
   </main>
 </template>
 
@@ -62,11 +31,14 @@ export default {};
 }
 
 .icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
 
 .icons a img {
-  width: 40%;
+  width: 30%;
 }
 </style>
