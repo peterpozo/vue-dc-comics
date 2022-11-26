@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron {
-  padding: 15%;
+  padding: 13%;
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
 }
